@@ -26,6 +26,7 @@ X = np.array(ct.fit_transform(X))
 
 print(X)
 
+#encoding dependent data
 from sklearn.preprocessing import LabelEncoder
 le = LabelEncoder()
 y = le.fit_transform(y)
