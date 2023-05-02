@@ -38,3 +38,5 @@ plt.title('Truth or Bluff (Polynomial Regression)')
 plt.xlabel('Position level')
 plt.ylabel('Salary')
 plt.show()
+
+lin_reg.predict([[6.5]])
